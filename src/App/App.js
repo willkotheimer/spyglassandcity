@@ -5,11 +5,9 @@ import TheNavbar from '../components/TheNavbar';
 import Routes from '../helpers/Routes';
 
 class App extends React.Component {
-
   render() {
-
     return (
-      <div className="App">
+      <div className='App'>
         <Router>
           <TheNavbar />
           <Routes />

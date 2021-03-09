@@ -7,19 +7,8 @@ import Customer from '../views/Customer';
 export default function Routes() {
   return (
     <Switch>
-      <Route
-        exact
-        path='/'
-        component={() => <Customer />}
-      />
-      <Route
-        exact
-        path='/manager'
-        component={() => <Manager />}
-      />
-      
-      
+      <Route exact path='/' component={() => <Customer />} />
+      <Route exact path='/manager' component={() => <Manager />} />
     </Switch>
   );
 }
-
