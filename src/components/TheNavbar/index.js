@@ -16,25 +16,22 @@ const Example = (props) => {
 
   return (
     <div>
-      <Navbar color="light" light expand="md">
-        <NavbarBrand href="/">Spyglass & City</NavbarBrand>
+      <Navbar className='navigation' dark expand='md'>
+        <NavbarBrand href='/'>Spyglass & City</NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
-          <Nav className="me-auto" navbar>
+          <Nav className='me-auto' navbar>
             <NavItem>
-              <NavLink href="/">Customer</NavLink>
+              <NavLink href='/'>Customer</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="/manager">Manager</NavLink>
+              <NavLink href='/manager'>Manager</NavLink>
             </NavItem>
-            
-            
           </Nav>
-        
         </Collapse>
       </Navbar>
     </div>
   );
-}
+};
 
 export default Example;
