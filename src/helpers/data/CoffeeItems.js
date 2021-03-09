@@ -28,36 +28,36 @@ const coffeeItems = {
   },
 
   coffee5: {
-    title: 'coffee',
-    description: 'cup of coffee',
-    price: 250,
+    title: 'Cappuccino',
+    description: 'Espresso with 1/3 foam and 1/3 steamed milk.',
+    price: 375,
     status: 'available',
   },
 
   coffee6: {
-    title: 'coffee',
-    description: 'cup of coffee',
-    price: 250,
+    title: 'Latte',
+    description: 'Espresso with steamed milk.',
+    price: 425,
     status: 'available',
   },
 
   coffee7: {
-    title: 'coffee',
-    description: 'cup of coffee',
-    price: 250,
+    title: 'Americano',
+    description: 'Espresso with hot water',
+    price: 300,
     status: 'available',
   },
 
   coffee8: {
-    title: 'coffee',
-    description: 'cup of coffee',
-    price: 250,
+    title: 'Pour Over',
+    description: 'Your choice of coffee in pourover style.',
+    price: 375,
     status: 'available',
   },
 
   coffee9: {
-    title: 'coffee',
-    description: 'cup of coffee',
+    title: 'French Press',
+    description: 'Your choice of coffee in french press style.',
     price: 250,
     status: 'available',
   },
