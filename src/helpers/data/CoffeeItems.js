@@ -1,65 +1,97 @@
 const coffeeItems = {
-  coffee1: {
+  drink1: {
     title: 'Coffee',
     description: 'Cup of the day.',
     price: 200,
-    status: 'available',
+    available: true,
+    type: 'traditional',
   },
 
-  coffee2: {
+  drink2: {
     title: 'Espresso',
     description: 'Espresso served with sparkling water.',
     price: 250,
-    status: 'available',
+    available: true,
+    type: 'traditional',
   },
 
-  coffee3: {
+  drink3: {
     title: 'Macchiato',
     description: 'Espresso with a dollop of milk.',
     price: 300,
-    status: 'available',
+    available: true,
+    type: 'traditional',
   },
 
-  coffee4: {
+  drink4: {
     title: 'Cortado',
     description: 'Espresso with equal parts milk.',
     price: 300,
-    status: 'available',
+    available: true,
+    type: 'traditional',
   },
 
-  coffee5: {
+  drink5: {
     title: 'Cappuccino',
     description: 'Espresso with 1/3 foam and 1/3 steamed milk.',
     price: 375,
-    status: 'available',
+    available: true,
+    type: 'traditional',
   },
 
-  coffee6: {
+  drink6: {
     title: 'Latte',
     description: 'Espresso with steamed milk.',
     price: 425,
-    status: 'available',
+    available: true,
+    type: 'traditional',
   },
 
-  coffee7: {
+  drink7: {
     title: 'Americano',
     description: 'Espresso with hot water',
     price: 300,
-    status: 'available',
+    available: true,
+    type: 'traditional',
   },
 
-  coffee8: {
+  drink8: {
     title: 'Pour Over',
     description: 'Your choice of coffee in pourover style.',
     price: 375,
-    status: 'available',
+    available: true,
+    type: 'traditional',
   },
 
-  coffee9: {
+  drink9: {
     title: 'French Press',
     description: 'Your choice of coffee in french press style.',
     price: 250,
-    status: 'available',
+    available: true,
+    type: 'traditional',
+  },
+  drink10: {
+    title: 'Mocha',
+    description: 'Latte with chocolate, whipped cream and cocoa on top!',
+    price: 450,
+    available: true,
+    type: 'specialty',
+  },
+  drink11: {
+    title: 'Cinnamon Dolce Latte',
+    description:
+      'Latte with cinnamon dolce syrup, whipped cream and cinnamon on top!',
+    price: 450,
+    available: true,
+    type: 'specialty',
+  },
+  drink12: {
+    title: 'Thai Iced Coffee',
+    description:
+      'Iced coffee with sweetened condensed milk, almond syrup, and cardamom!',
+    price: 450,
+    available: true,
+    type: 'specialty',
   },
 };
 
