@@ -1,0 +1,12 @@
+{
+    "firebaseKeys": {
+      "apiKey": "AIzaSyDhjRPsQdUvpDBuFwMckcFRaTFdCv3UK5I",
+      "authDomain": "spyglassandcity.firebaseapp.com",
+      "databaseURL": "https://spyglassandcity-default-rtdb.firebaseio.com",
+      "projectId": "spyglassandcity",
+      "storageBucket": "spyglassandcity.appspot.com",
+      "messagingSenderId": "94304035932",
+      "appId": "11:94304035932:web:be5408d3a9cde1a78cf299",
+      "measurementId": "G-689MVHDXHG"
+    }
+  }
