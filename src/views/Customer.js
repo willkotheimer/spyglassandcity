@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import getAllCoffeeItems from '../helpers/data/CoffeeFB';
 import getAllMenuItems from '../helpers/data/MenuFB';
+import Coffee from '../components/Coffee';
 
 export default class Customer extends Component {
   state = {
@@ -9,22 +10,26 @@ export default class Customer extends Component {
   };
 
   componentDidMount() {
-    this.getAllCoffeeItems();
-    this.getAllMenuItems();
+    this.getCoffeeItems();
+    this.getMenuItems();
   }
 
-  getAllCoffeeItems = () => getAllCoffeeItems().then((response) => {
+  getCoffeeItems = () => getAllCoffeeItems().then((response) => {
     this.setState({ coffee: response });
   });
 
-  getAllMenuItems = () => getAllMenuItems().then((response) => {
+  getMenuItems = () => getAllMenuItems().then((response) => {
     this.setState({ menu: response });
   });
 
   render() {
+    const { coffee } = this.state;
+
     return (
       <div>
         <h1>Customer page</h1>
+        { console.warn(coffee) }
+        {<Coffee coffeeItems={coffee} /> }
       </div>
     );
   }
