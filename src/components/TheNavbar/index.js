@@ -27,6 +27,11 @@ const Example = (props) => {
             <NavItem>
               <NavLink href='/manager'>Manager</NavLink>
             </NavItem>
+            <NavItem>
+              <NavLink href='/cart'>
+                <i class='fas fa-shopping-cart'></i>
+              </NavLink>
+            </NavItem>
           </Nav>
         </Collapse>
       </Navbar>
