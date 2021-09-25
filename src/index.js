@@ -7,12 +7,6 @@ import reportWebVitals from './reportWebVitals';
 
 // Store -> Global State
 
-// Action -> Describes what you want to do
-
-// Reducer
-
-// Dispatch
-
 ReactDOM.render(
   <React.StrictMode>
     <App />
